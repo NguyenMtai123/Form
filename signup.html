@@ -86,14 +86,9 @@
                 return false;
             }
 
-
-            //     alert('Email không hợp lệ');
-            //     return false;
-            // }
-
             if (!email.includes('@')) {
                 alert('Email không hợp lệ.Phải có dấu @');
-                return false; // Ngăn form submit
+                return false;
             }
 
             if (pass1.length < 8) {
